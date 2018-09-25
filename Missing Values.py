@@ -1,7 +1,7 @@
 
 ## Pandas and missing data
 
-# As stated in lecture 5, pandas uses NaN as a missing value
+# pandas uses NaN as a missing value
 # NaN stands for Not a Number
 # You can use the NumPy nan or the Python None value to insert them in a Series or Data Frame
 salary = Series([53215,112454,22365,np.nan,30493,None],index=['Margaret','Stephen','Joanne','Joe','Matthew','Nelson'])
